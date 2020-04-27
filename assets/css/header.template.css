@@ -24,17 +24,17 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown2:hover .dropbtn {
   background-color:rgb(140,76,66);
   text-decoration: none;
   color:blanchedalmond;
 }
 
-li.dropdown {
+li.dropdown2 {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown2-content {
   display: none;
   position: absolute;
   background-color: rgb(140,76,66);
@@ -43,7 +43,7 @@ li.dropdown {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdown2-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -51,9 +51,9 @@ li.dropdown {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown2-content a:hover {background-color: #f1f1f1;}
 
-.dropdown:hover .dropdown-content {
+.dropdown2:hover .dropdown2-content {
   display: block;
 }
 
